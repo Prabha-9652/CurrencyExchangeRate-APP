@@ -1,0 +1,58 @@
+*:focus{
+	outline: 0;
+	border-color: blueviolet;
+}
+body{
+	text-align: center;
+	margin: 0px;
+	background: #a3b4bb;
+}
+
+nav{
+	margin: 0px;
+	background: darkslategrey !important;
+}
+p{
+	color: red;
+	font-size: 25px;
+}
+#container{
+	padding-top:100px;
+}
+
+input, select{
+	padding : 5px 20px;
+	margin-right: 10px;
+	border: solid green;
+	border-radius: 15px;
+	font-size: 18px;
+}
+
+select{
+	border-radius: 10px !important;
+	background: cadetblue;
+	color: ghostwhite;
+    font-size: 15px;
+}
+
+option{
+	background: #78909c;
+	border-color: black;
+}
+
+header{
+	color: yellowgreen;
+	font-size: 40px;
+	font-family: monospace;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 5px;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
